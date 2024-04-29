@@ -1,0 +1,49 @@
+{
+  "name": "",
+  "type": "dir",
+  "children": [
+    {
+      "name": "diarization-service",
+      "type": "dir",
+      "children": [
+        {"name": "src", "type": "dir", "children": [{"name": "diarization.py", "type": "file"}, {"name": "utils.py", "type": "file"}]},
+        {"name": "tests", "type": "dir"},
+        {"name": "requirements.txt", "type": "file"},
+        {"name": "Dockerfile", "type": "file"}
+      ]
+    },
+    {
+      "name": "transcription-service",
+      "type": "dir",
+      "children": [
+        {"name": "src", "type": "dir", "children": [{"name": "transcription.py", "type": "file"}, {"name": "utils.py", "type": "file"}]},
+        {"name": "tests", "type": "dir"},
+        {"name": "requirements.txt", "type": "file"},
+        {"name": "Dockerfile", "type": "file"}
+      ]
+    },
+    {
+      "name": "server",
+      "type": "dir",
+      "children": [
+        {"name": "src", "type": "dir", "children": [{"name": "app.js", "type": "file"}, {"name": "routes.js", "type": "file"}]},
+        {"name": "public", "type": "dir"},
+        {"name": "tests", "type": "dir"},
+        {"name": "package.json", "type": "file"},
+        {"name": "Dockerfile", "type": "file"}
+      ]
+    },
+    {
+      "name": "common",
+      "type": "dir",
+      "children": [
+        {"name": "src", "type": "dir", "children": [{"name": "common_utils.py", "type": "file"}]},
+        {"name": "tests", "type": "dir"}
+      ]
+    },
+    {"name": "scripts", "type": "dir", "children": [{"name": "deploy.sh", "type": "file"}]},
+    {"name": ".gitignore", "type": "file"},
+    {"name": "README.md", "type": "file"},
+    {"name": "docker-compose.yml", "type": "file"}
+  ]
+}
